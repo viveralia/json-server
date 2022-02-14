@@ -3,7 +3,6 @@
     {
       "id": "49b6f159-dcf0-425f-8b7a-0a15e53b6c39",
       "admissionDate": "2020-10-21T13:28:06.419Z",
-      "validationDate": "2020-10-21T13:28:06.419Z",
       "legalName": "Composición Editorial Láser, S.A. de C.V.",
       "rfc": "CEL880421GG0",
       "accountHolder": "Lilia Nataly Vaca Tapia",
@@ -14,7 +13,6 @@
     {
       "id": "6bd3525d-e80e-40a2-8eeb-98e2309765ff",
       "admissionDate": "2020-10-21T13:28:06.419Z",
-      "validationDate": "2020-10-21T13:28:06.419Z",
       "legalName": "Arpa Servicios Editoriales, S.A. de C.V.",
       "rfc": "BAGP8405174IA",
       "accountHolder": "Paola Joana Bañuelos García",
@@ -25,46 +23,56 @@
     {
       "id": "19065600-10ed-4b50-9b61-782f4dda6491",
       "admissionDate": "2020-10-21T13:28:06.419Z",
-      "validationDate": "2020-10-21T13:28:06.419Z",
       "legalName": "Dirección General de Bibliotecas, Universidad Nacional Autónoma de México",
       "rfc": "UNA2907227Y5",
       "accountHolder": "Ulises Pérez Vázquez",
       "clabe": "032180000118359719",
-      "status": "NOT_FOUND",
-      "attatchments": []
-    },
-    {
-      "id": "4b6becab-383e-4e07-8f4f-848eaf28bec9",
-      "admissionDate": "2020-10-21T13:28:06.419Z",
-      "validationDate": "2020-10-21T13:28:06.419Z",
-      "legalName": "Composición Editorial Láser, S.A. de C.V.",
-      "rfc": "CEL880421GG0",
-      "accountHolder": "Lilia Nataly Vaca Tapia",
-      "clabe": "014027000005555558",
       "status": "PENDING",
       "attatchments": []
+    }
+  ],
+  "users": [
+    {
+      "email": "test@yaydoo.com",
+      "password": "$2a$10$hBQuf7Nj128jKiefH729zeNVvKAAY18SXZOFysukAiothjenM89I6",
+      "id": 1
     },
     {
-      "id": "46f15a23-81dc-46f1-9d04-8d517c52e28f",
-      "admissionDate": "2020-10-21T13:28:06.419Z",
-      "validationDate": "2020-10-21T13:28:06.419Z",
-      "legalName": "Arpa Servicios Editoriales, S.A. de C.V.",
-      "rfc": "BAGP8405174IA",
-      "accountHolder": "Paola Joana Bañuelos García",
-      "clabe": "002010077777777771",
-      "status": "NOT_VALID",
-      "attatchments": []
+      "email": "dev@yaydoo.com",
+      "password": "$2a$10$Xy1rReK2ZgGLq6ei4exWruCgpobeAjgHzCLfU9pGupVoQkp5QnnTu",
+      "id": 2
+    }
+  ],
+  "yaydoo-users": [
+    { 
+      "id": "49b6f159-dcf0-425f-8b7a-0a15e53b6c39",
+      "createdAt": "2020-10-21T13:28:06.419Z",
+      "email": "test@yaydoo.com",
+      "isActive": true,
+      "lastName": "Luna",
+      "modules": ["BANK_ACCOUNTS_VALIDATION"],
+      "name": "Hugo",
+      "role": "ADMIN"
     },
     {
-      "id": "bc3b8cac-e571-42f5-9e75-824cf34edb69",
-      "admissionDate": "2020-10-21T13:28:06.419Z",
-      "validationDate": "2020-10-21T13:28:06.419Z",
-      "legalName": "Dirección General de Bibliotecas, Universidad Nacional Autónoma de México",
-      "rfc": "UNA2907227Y5",
-      "accountHolder": "Ulises Pérez Vázquez",
-      "clabe": "032180000118359719",
-      "status": "VALID",
-      "attatchments": []
+      "id": "6bd3525d-e80e-40a2-8eeb-98e2309765ff",
+      "createdAt": "2020-10-21T13:28:06.419Z",
+      "email": "dev@yaydoo.com",
+      "isActive": true,
+      "lastName": "Viveros",
+      "modules": ["BANK_ACCOUNTS_VALIDATION"],
+      "name": "Iván",
+      "role": "ADMIN"
+    },
+    {
+      "id": "19065600-10ed-4b50-9b61-782f4dda6491",
+      "createdAt": "2020-10-21T13:28:06.419Z",
+      "email": "mafer@yaydoo.com",
+      "isActive": false,
+      "lastName": "Luna",
+      "modules": ["BANK_ACCOUNTS_VALIDATION"],
+      "name": "Mafer",
+      "role": "ADMIN"
     }
   ]
 }
