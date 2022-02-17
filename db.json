@@ -50,7 +50,7 @@
       "email": "test@yaydoo.com",
       "isActive": true,
       "lastName": "Luna",
-      "modules": ["BANK_ACCOUNTS_VALIDATION"],
+      "modules": ["BANK_ACCOUNTS_VALIDATION", "KYC"],
       "name": "Hugo",
       "role": "ADMIN"
     },
